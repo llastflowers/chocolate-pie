@@ -18,11 +18,18 @@ h1 {
     font-family: 'Exo', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    margin: auto;
+}
+
+.logo {
+    margin: 50px 10px;
 }
 
 .subhead {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 13px;
+    margin-top: 0px;
 }
 
 .divider {
@@ -34,6 +41,24 @@ h1 {
 }
 
 header {
+    display: grid;
+    grid-template: 
+    'logo blog-title logos';
+    grid-template-rows: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 40px;
+}
+
+
+.logos img {
+    margin: 1px;
+}
+
+.page-title {
     margin-right: 6%;
     margin-left: 6%;
 }
@@ -46,11 +71,14 @@ h3 {
 .posted {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 13px;
+    text-align: left;
+    color: grey;
 }
 
 .print {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 13px;
+    text-align: right;
 }
 
 .pizza {
@@ -66,6 +94,7 @@ h3 {
     text-indent: 30px;
     margin-right: 6%;
     margin-left: 6%;
+    color: grey;
 }
 
 .recipe {
