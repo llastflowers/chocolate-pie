@@ -11,7 +11,7 @@
 }
 
 body {
-    margin: auto;
+    margin: 20%;
 }
 
 h1 {
@@ -145,8 +145,8 @@ button {
 }
 
 .small-logo {
-    margin-right: 49%;
-    margin-left: 49%;
+    margin-right: 40%;
+    margin-left: 40%;
     position: absolute;
     z-index: 1;
 }
